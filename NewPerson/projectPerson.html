@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sk/cz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible"/>
+
+    <title>Project where the Person is the most</title>
+    <script src="projectPerson.js"></script>
+    <link rel="stylesheet" href="projectPerson.css" />
+  </head>
+<body>
+<main>
+ 
+<table id="inputPeople" align="center">
+        <tr>
+            <td>Name</td>
+            <td><input type="text"id="name"></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="number"id="age"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="text"id="gender"></td>
+        </tr>
+        
+        <tr>
+        <td>&nbsp</td>
+        <td align="center"><input type="button" value="Create Person" id="createPerson" onClick="createPerson()"/></td>
+        </tr>
+        </table>
+        <table id="listOfPeople" width="400px" align="center" border=0> 
+        
+            <tr>
+                <td align="center"><b>Name</b></td>
+                <td align="center"><b>Age</b></td>
+                <td align="center"><b>Gender</b></td>
+                </tr> 
+                <tr>
+                <td align="center"><div id="areaName"></div></td>
+                <td align="center"><div id="areaAge"></div></td>
+                <td align="center"><div id="areaGender"></div></td>
+            </tr>
+        </table>
+        </main>
+    </body>
+</html>
